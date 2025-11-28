@@ -5,12 +5,22 @@
 font-family: "Titles";
 src: url(../fonts/mag.ttf);
 }
-h1, h2, h3, h5, h6 {
-font-family: "Titles" !important;
+@font-face {
+font-family: "HH4";
+src: url(../fonts/soul.ttf);
 }
+
 p, a, li {
 font-family: 'Playfair Display', serif;
 }
+
+h1, h2, h3, h5, h6 {
+font-family: "Titles" !important;
+}
+h4 {
+font-family: 'Playfair Display', serif;
+}
+
 body {
 position: relative;
 background-color:#222;
